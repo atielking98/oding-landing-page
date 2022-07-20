@@ -7,7 +7,7 @@ body {
 .header {
     display: flex;
     align-items: center;
-    background-color: aquamarine;
+    background-color: #7fffd4;
     padding: 16px;
 }
 
@@ -36,4 +36,49 @@ a {
     color: rgba(38, 34, 45, 0.852);
     text-align: center;
     margin-left: 16px;
+}
+
+.body {
+    display: flex;
+    flex: 1;
+}
+
+.hero {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    gap: 64px;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(127,255,212,0.7413559173669468) 100%);
+}
+
+.hero-image {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.hero-header {
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.hero-container {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hero-signup {
+    align-self: center;
+}
+
+.hero-signup button {
+    border-radius: 12px;
+    background-color: rgba(38, 34, 45, 0.852);
+    color: whitesmoke;
+    padding: 2px 8px;
+    font-size: 16px;
 }
