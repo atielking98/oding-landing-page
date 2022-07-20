@@ -3,12 +3,21 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 .header {
     display: flex;
     align-items: center;
     background-color: #7fffd4;
+    padding: 16px;
+}
+
+.footer {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    background-color: rgba(238,174,202,1);
     padding: 16px;
 }
 
@@ -111,4 +120,29 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(127,255,212,0.7
 .recipe img {
     width: 150px;
     border: 5px dotted aquamarine;
+}
+
+.quote {
+    margin: 0;
+    background: #eee;
+    padding: 1em;
+    border-radius: 1em;
+    text-align: center;
+    font-style: italic;
+  }
+  .quote figcaption,
+  .quote blockquote {
+    margin: 1em;
+  }
+
+  .cta {
+    text-align: center;
+    margin: 32px;
+  }
+.cta button {
+    border-radius: 12px;
+    background-color: rgba(38, 34, 45, 0.852);
+    color: whitesmoke;
+    padding: 2px 8px;
+    font-size: 16px;
 }
